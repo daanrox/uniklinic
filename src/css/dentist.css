@@ -33,6 +33,8 @@
     width: 100%;
     max-width: 350px !important;
     border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .dentist__container>div>div{
@@ -78,6 +80,11 @@
 @media screen and (max-width: 448px){
     .dentist__container>div>div>ol{
         font-size: 1rem;
+    }
+
+    .dentist__container > div >img{
+        max-height: 350px;
+        
     }
 }
 

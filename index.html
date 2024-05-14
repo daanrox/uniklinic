@@ -50,13 +50,11 @@
 
         <header class="header">
             <div class="header__container">
-
                 <div class="header__logo">
                     <img onmousedown="return false;" src="src/img/uniklinic_logo_light.png" alt="Uniklinic Logo">
                 </div>
                 <nav class="header__nav">
                     <div>
-
                         <a href="#">
                             <p>Início</p>
                         </a>
@@ -72,17 +70,33 @@
                     </div>
                 </nav>
                 <a target="_blank"
-                    href="https://api.whatsapp.com/send?phone=553199999999&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pré%20avaliação%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso">
+                   href="https://api.whatsapp.com/send?phone=553199999999&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pré%20avaliação%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso">
                     <button class="header__button">
                         <img onmousedown="return false;" src="src/icons/whatsapp.png" alt="Envie uma mensagem no Whatsapp!">
                         (31) 9999-9999
                     </button>
                 </a>
-                <span class="menu__hamburguer material-symbols-outlined">
+                <script src="./src/js/hamburguer.js"></script>
+                <span class="menu__hamburguer material-symbols-outlined" onclick="toggleMenu()">
                     menu
                 </span>
             </div>
         </header>
+
+        <div class="menu-open" id="menuOpen">
+            <div class="menu__content">
+                <div class="menu__header">
+                    <span class="menu__close material-symbols-outlined" onclick="toggleMenu()">close</span>
+                </div>
+                <div class="menu__list">
+                    <a href="#" onclick="toggleMenu()">Início</a>
+                    <a href="#services" onclick="toggleMenu()">Serviços</a>
+                    <a href="#about" onclick="toggleMenu()">Sobre</a>
+                    <a href="#contact" onclick="toggleMenu()">Contato</a>
+                    <a href="https://agenda.link/UniklinicBetim/" onclick="toggleMenu()" target="_blank">Agendamentos</a>
+                </div>
+            </div>
+        </div>
 
         <div class="home">
             <h2>Transforme!</h2>
@@ -101,7 +115,7 @@
 
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="services__container">
             <h2>Nossos serviços</h2>
             <ul>
@@ -201,7 +215,7 @@
   
 
     
-    <section class="dentist">
+    <section class="dentist" id="about">
         <div class="dentist__container">
             <h1>Quem somos</h1>
             <div>
@@ -447,7 +461,7 @@
         <script src="src/js/whatsapp.js"></script>
     </section>
 
-
+<script src="./src/js/smooth.js"></script>
 </body>
 
 </html>

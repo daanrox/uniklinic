@@ -61,3 +61,19 @@
     width: 100%;
     max-width: 350px;
 }
+
+@media screen and (max-width: 500px){
+
+    .app__info>h2{
+        font-size: 1.2rem;
+    }
+    .app__info>p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .app__info>h1{
+        font-size: 2rem;
+    }
+}

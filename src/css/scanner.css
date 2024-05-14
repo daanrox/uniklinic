@@ -63,3 +63,21 @@
     width: 100%;
     max-width: 400px;
 }
+
+@media screen and (max-width: 500px){
+
+    .scanner__info>h2{
+        font-size: 1.2rem;
+    }
+    .scanner__info>p{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 350px) {
+    .scanner__info>h1{
+        font-size: 2rem;
+    }
+}

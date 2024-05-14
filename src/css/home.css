@@ -38,7 +38,7 @@
     max-width: 400px;
 }
 
-@media (max-width:801px) {
+@media (max-width:1000px) {
 
     .home{
         height: auto;
@@ -53,4 +53,11 @@
     }
 
 
+}
+
+@media screen and (max-width: 500px) {
+    .home{
+        height: 600px;
+        gap: 1rem;
+    }   
 }

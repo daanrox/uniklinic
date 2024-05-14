@@ -80,3 +80,9 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .dentist__container>h1{
+        font-size: 2rem;
+    }
+}

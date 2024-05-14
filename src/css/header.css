@@ -1,0 +1,93 @@
+
+.header{
+
+    /* background-color: var(--main-background-opacity);
+    border-bottom: 1px solid gray; */
+    height: 90px;
+    margin: 1rem 0;
+}
+
+.header__container{
+    width: 90%;
+    max-width: var(--width-container);
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo > img{
+    /* height: 50px; */
+    width: 80%;
+    max-width: 380px;
+    min-width: 240px;
+}
+
+.header__nav > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50px;
+    gap: 2rem;
+    
+}
+
+.header__nav > div > a {
+    color: var(--main-gray-color);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.header__nav > div > a:hover{
+    color: var(--main-gray-color-hover);
+}
+
+
+.header__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+    background-color: var(--whatsapp-color);
+    color: white;
+    font-size: 1rem;
+    height: 50px;
+    padding: 1rem;
+    margin-left: 25px;
+    border-radius: 0.5rem;
+    width: 80%;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.header__button>img{
+    height: 2rem;
+    margin: 0.2rem;
+}
+
+.menu__hamburguer{
+    display: none;
+}
+
+@media (max-width:940px) {
+
+    .menu__hamburguer{
+        font-size: 4rem;
+        color: var(--main-gray-color);
+        display: block;
+    }
+
+    .header__container{
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__button{
+        display: none;
+    }
+}

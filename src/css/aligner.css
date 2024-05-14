@@ -1,0 +1,40 @@
+.aligner{
+    background-image: url("/src/img/align_models.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 400px;
+}
+
+.aligner__container{
+    width: 90%;
+    max-width: var(--width-container);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: left;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+
+.aligner__container>h2{
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--main-black-color);
+    text-wrap: wrap;
+    
+}
+
+.aligner__container>img{
+    width: 80%;
+    max-width: 250px;
+}
+
+@media screen and (max-width:480px) {
+    .aligner__container>h2{
+        font-size: 2rem;
+    }
+    
+}

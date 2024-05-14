@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    border: none;
+}
+
+:root {
+
+    --width-container: 1100px;
+
+    --main-background-opacity: rgba(0, 0, 10, 0.9);
+
+    --main-white-color: rgb(255, 255, 255);
+    --option-white-color: rgb(211, 216, 230);
+    --option2-white-color: rgb(181, 187, 204);
+
+    --invert-black-color: rgb(248, 247, 232);
+    
+    --main-gray-color: rgb(135, 138, 139);
+    --main-gray-color-hover: rgb(227, 248, 255);
+
+    --main-black-color: rgba(49, 49, 49, 0.85);
+    --option-black-color: rgb(31, 31, 31, 1);
+    --option2-black-color: rgb(31, 31, 31, 0.4);
+    --main-black-color-hover: rgb(56, 58, 59);
+
+    --whatsapp-color: #58be4a;
+    --uniklinic-color: #d8222f;
+    --uniklinic-invert: #27ddd0;
+  }

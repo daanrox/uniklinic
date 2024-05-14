@@ -1,0 +1,92 @@
+.mordidas{
+    width: 100%;
+    background-color: var(--main-background-opacity);
+    padding: 3rem 0;
+    margin: auto;
+    
+}
+
+.mordidas>h2{
+    font-size: 3rem;
+    color: var(--option-white-color);
+    
+    text-align: center;
+    word-break: break-all;
+    width: 90%;
+    margin: auto;
+}
+
+
+.mordidas__container{
+    width: 90%;
+    max-width: var(--width-container);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.mordidas__card{
+    transform: scale(0.9);
+    width: 90%;
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid var(--option2-black-color);
+    border-radius: 1rem;
+    filter: invert();
+
+}
+
+.mordidas__card:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+.mordidas__card:hover .play{
+    transform: scale(2.2);
+    transition: 1s;
+    color: var(--uniklinic-invert);
+    cursor: pointer;
+}
+.mordidas__card:hover h3{
+    transform: scale(1.2);
+    transition: 1s;
+    color: var(--uniklinic-invert);
+    cursor: pointer;
+}
+
+.play{
+    transform: scale(1.8);
+    cursor: pointer;
+    transition: transform 1s ease-out;
+}
+
+
+.mordidas__card>img{
+    width: 100%;
+    max-width: 250px;
+    transition: transform 0.7s ease-out;
+}
+
+.mordidas__card>h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    transition: transform 1s ease-out;
+}
+
+.underline{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--uniklinic-invert);
+}
+.mordidas__card>p{
+    text-align: center;
+    height: 50%;
+}

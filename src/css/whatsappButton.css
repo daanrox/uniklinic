@@ -1,0 +1,84 @@
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 43px;
+    right: 50px;
+    background-image: url(https://static.wixstatic.com/media/5460fe_81615dc9cbf54cec86708a6b26ab8779~mv2.png);
+    background-size: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    z-index: 999;
+  }
+  
+  
+  
+  #whatsapp-form {
+    display: none;
+    position: fixed;
+    bottom: 145px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    z-index: 9999;
+  }
+  
+  @media (max-width:587px) {
+      .whatsapp-btn{
+          right: 12%;
+      }
+  
+      #whatsapp-form{
+          right: 12%;
+      }
+  }
+  
+  
+  #whatsapp-form > div > label {
+    color: #002055;
+  }
+  
+  #whatsapp-form > div > input {
+    border: 1px solid #002055;
+    border-radius: 0.3rem;
+    height: 2rem;
+    min-width: 13rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  #whatsapp-form > div > textarea {
+    border: 1px solid #002055;
+    border-radius: 0.3rem;
+    height: 7rem;
+    min-width: 13rem;
+    font-size: 1rem;
+    padding: 1rem;
+    resize: none;
+  }
+  #whatsapp-form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin: 0.4rem 0;
+  }
+  
+  #whatsapp-form > button {
+    background-color: #002055;
+    border: none;
+    padding: 0.3rem 2rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+    border-radius: 0.3rem;
+  }
+  
+  #whatsapp-form > button:hover {
+    background-color: #039dd1;
+    cursor: pointer;
+  }

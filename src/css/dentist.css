@@ -1,6 +1,6 @@
 .dentist{
     background-color: var(--main-background-opacity);
-    background-image: url('/src/img/heryk-bg.png');
+    background-image: url('src/img/heryk-bg.png');
     background-position:  left;
     background-size: cover;
 }

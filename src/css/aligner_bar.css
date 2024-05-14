@@ -1,5 +1,5 @@
 .aligner_bar{
-    background-image: url("/src/img/align_bar.png");
+    background-image: url("src/img/align_bar.png");
     background-size: cover;
     background-position: left;
     height: 400px;

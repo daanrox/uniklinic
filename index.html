@@ -22,7 +22,7 @@
     <script src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
     <script src="src/js/tailwind.js"></script>
 
-    <!-- <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script> -->
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
 
     <title>Uniklinic Betim</title>
     <meta name="description" content="Uniklinic Clínica Especializada em Alinhadores Transparente Invisalign e Crystal Aligner" />
@@ -64,16 +64,16 @@
                         <a href="#about">
                             <p>Sobre</p>
                         </a>
-                        <a href="#contact">
+                        <a href="./contact.html">
                             <p>Contato</p>
                         </a>
                     </div>
                 </nav>
                 <a target="_blank"
-                   href="https://api.whatsapp.com/send?phone=553199999999&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pré%20avaliação%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso">
+                   href="https://api.whatsapp.com/send?phone=553125718002&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pré%20avaliação%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso">
                     <button class="header__button">
                         <img onmousedown="return false;" src="src/icons/whatsapp.png" alt="Envie uma mensagem no Whatsapp!">
-                        (31) 9999-9999
+                        (31) 2571-8002
                     </button>
                 </a>
                 <script src="./src/js/hamburguer.js"></script>
@@ -92,7 +92,7 @@
                     <a href="#" onclick="toggleMenu()">Início</a>
                     <a href="#services" onclick="toggleMenu()">Serviços</a>
                     <a href="#about" onclick="toggleMenu()">Sobre</a>
-                    <a href="#contact" onclick="toggleMenu()">Contato</a>
+                    <a href="./contact.html" onclick="toggleMenu()">Contato</a>
                     <a href="https://agenda.link/UniklinicBetim/" onclick="toggleMenu()" target="_blank">Agendamentos</a>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 
         <div class="home">
             <h2>Transforme!</h2>
-            <p>Escolha nossos Alinhadores Transparentes para um sorriso mais lindo e saudável</p>
+            <p id="typing-text" class="typing"></p>
             <div>
                 <img onmousedown="return false;" src="src/img/crystal_banner.png"
                     alt="Crystal Aligner - Show Your Smile" />
@@ -109,6 +109,7 @@
             <button class="button__agenda">
                 Agendamento Online
             </button>
+            <script src="./src/js/typing.js"></script>
         </div>
 
         </div>
@@ -119,15 +120,15 @@
         <div class="services__container">
             <h2>Nossos serviços</h2>
             <ul>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Clareamento</p></li>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Harmonização facial</p></li>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Facetas em Resina</p></li>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Sedação</p></li>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Ortodontia</p></li>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Tratamento de canal</p></li>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Profilaxia</p></li>
-                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Clínico Geral</p></li>
                 <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Alinhadores</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Clareamento</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Clínico Geral</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Facetas em Resina</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Harmonização Facial</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Ortodontia</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Profilaxia</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Sedação</p></li>
+                <li><img onmousedown="return false;" src="src/icons/logo.png"/><p>Tratamento de Canal</p></li>
 
             </ul>
             <button class="button__agenda">
@@ -284,8 +285,8 @@
 
     <section class="call">
         <div class="call__container">
-            <button class="button__call">
-                Solicitar Atendimento <img onmousedown="return false;" src="src/icons/whatsapp.png" alt="Botão Whatsapp para contato na Uniklinic Betim"/>
+            <button class="button__agenda">
+                Agendamento Online
             </button>
         </div>
     </section>
@@ -293,9 +294,9 @@
     <section class="aligner_bar">
         <div class="aligner_bar__container">
             <h2>Alinhadores Transparentes</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sint nisi, impedit architecto qui aliquam.
+            <p>A mais alta tecnologia para um sorriso alinhado com conforto;
             </p>
-            <img onmousedown="return false;" src="src/img/crystalalign_logo_dark_banner.png" alt="Alinhador Transparente da Uniklinic">
+            <img onmousedown="return false;" src="src/img/invisalign_logo.png" alt="Alinhador Transparente da Uniklinic">
         </div>
 
     </section>
@@ -370,21 +371,80 @@
 
     <section class="call">
         <div class="call__container">
-            <button class="button__call">
-                Solicitar Atendimento <img onmousedown="return false;" src="src/icons/whatsapp.png" alt="Botão de Contato da Uniklinic no Whatsapp"/>
+            <button class="button__agenda">
+                Agendamento Online
             </button>
         </div>
+    </section>
+
+    <section class="faq">
+        <div class="faq__container">
+            <h1>FAQ</h1>
+            <div>
+
+                <div class="faq__card" id="card1">
+                    <div class="faq__header">
+                        <h2>Como inicio o tratamento?</h2>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
+                    <div class="faq__content" id="content_card1">
+                        <p>Para conversarmos sobre seus objetivos com o tratamento e as alternativas que temos a oferecer, você pode optar por uma avaliação online ou presencial. Durante essa avaliação, discutiremos suas necessidades e expectativas, além de fornecer informações detalhadas sobre as opções de tratamento disponíveis.</p>
+
+                        <p>Em seguida, realizaremos o escaneamento 3D e a foto-radiodocumentação. Esses exames e diagnósticos são essenciais para planejarmos o seu tratamento com precisão. Esses procedimentos podem ser realizados em nossa clínica ou em uma clínica parceira, garantindo a melhor qualidade e conveniência para você.</p>
+                            
+                        <p>Após a avaliação e a realização dos exames, iniciaremos o tratamento. Você começará a usar seus alinhadores transparentes, que foram personalizados para você. Esse é o primeiro passo para conquistar um sorriso mais bonito e saudável, com todo o acompanhamento necessário para garantir o sucesso do tratamento.</p>
+                    </div>
+                </div>
+
+                <div class="faq__card" id="card2">
+                    <div class="faq__header">
+                        <h2>Quanto Custa?</h2>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
+                    <div class="faq__content" id="content_card2">
+                        <p>O preço do tratamento com Invisalign ou Crystal Aligner é baseado na complexidade do caso e na quantidade de placas alinhadoras necessárias para a correção. Os tratamentos mais simples são chamados de Light, destinados a desalinhamentos menores ou pequenos espaçamentos entre os dentes. Casos intermediários, chamados de Full, envolvem a correção da mordida, com ou sem desalinhamentos médios dos dentes. Os casos mais complexos se enquadram no plano Total, que requer uma grande correção da mordida, com ou sem desalinhamentos maiores dos dentes.</p>
+                        
+                        <p>Através da pré-avaliação online ou da avaliação presencial, será feita uma estimativa de valores para o seu caso, que será confirmada após a realização dos exames complementares (foto-radiodocumentação ortodôntica).</p>
+                    </div>
+                </div>
+
+                <div class="faq__card" id="card3">
+                    <div class="faq__header">
+                        <h2>Serve para mim?</h2>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
+                    <div class="faq__content" id="content_card3">
+                        <p>Crystal Aligner e Invisalign podem ser usados na maioria dos casos onde se usaria aparelhos fixos tradicionais, com a vantagem de que os alinhadores ortodônticos são transparentes, confortáveis e ágeis.</p>
+                        
+                        <p>Nossa equipe é uma das mais experientes do Brasil em tratamento com alinhadores.</p>
+                    </div>
+                </div>
+
+                
+
+
+            </div>
+            
+        </div>
+        <script src="./src/js/faq.js"></script>
     </section>
 
     <section class="aligner">
         <div class="aligner__container">
             <h2>Alinhadores Transparentes</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sint nisi, impedit architecto qui aliquam.
-            </p>
+            <p>Para um sorriso mais lindo e saudável.</p>
             <img onmousedown="return false;" src="src/img/crystalalign_logo_dark_banner.png" alt="Crystal Aligner - Show your smile - Uniklinic Betim">
         </div>
 
     </section>
+
+  
 
     <footer class="footer">
         <div class="google-map" style="display: none;">
@@ -400,13 +460,13 @@
                     <p>Edifício Seletto Office <br>Av. Gov. Valadares, 851 - Sala 803 - Centro, Betim - MG, 32600-135
                     </p>
                     <div class="footer__socials">
-                        <a href="https://api.whatsapp.com/send?phone=553199999999&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pr%C3%A9%20avalia%C3%A7%C3%A3o%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso"
+                        <a href="https://api.whatsapp.com/send?phone=553125718002&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pr%C3%A9%20avalia%C3%A7%C3%A3o%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso"
                             target="_blank"><img onmousedown="return false;" src="src/icons/whatsapp2.png" alt="Whatsapp"></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img onmousedown="return false;" src="src/icons/instagram.png"
+                        <a href="https://www.instagram.com/uniklinic.betim/" target="_blank"><img onmousedown="return false;" src="src/icons/instagram.png"
                                 alt="Instagram"></a>
-                        <a href="https://www.facebook.com/" target="_blank"><img onmousedown="return false;" src="src/icons/facebook.png"
+                        <a href="https://www.facebook.com/Uniklinic.betim" target="_blank"><img onmousedown="return false;" src="src/icons/facebook.png"
                                 alt="Facebook"></a>
-                        <a href="https://www.youtube.com/" target="_blank"><img onmousedown="return false;" src="src/icons/youtube.png"
+                        <a href="https://www.youtube.com/@UniklinicBetim" target="_blank"><img onmousedown="return false;" src="src/icons/youtube.png"
                                 alt="Youtube"></a>
                         <a href="https://www.google.com/maps/dir//Edifício+Seletto+office+-+Av.+Gov.+Valadares,+851+-+Sala+803+-+Centro,+Betim+-+MG,+32600-135/@-19.9705778,-44.2768551,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa6c3adbeb78d45:0x993f29847c980ff0!2m2!1d-44.1944534!2d-19.9705968?entry=ttu"
                             target="_blank"><img onmousedown="return false;" src="src/icons/google-maps.png" alt="Google Maps"></a>
@@ -416,10 +476,10 @@
                 </div>
 
                 <nav>
-                    <a href="">Início</a>
-                    <a href="">Sobre</a>
-                    <a href="">Serviços</a>
-                    <a href="">Contato</a>
+                    <a href="#">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#services">Serviços</a>
+                    <a href="./contact.html">Contato</a>
 
                 </nav>
             </div>
@@ -462,6 +522,8 @@
     </section>
 
 <script src="./src/js/smooth.js"></script>
+<script src="./src/js/buttons.js"></script>
+
 </body>
 
 </html>

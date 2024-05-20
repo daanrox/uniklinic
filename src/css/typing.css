@@ -1,0 +1,13 @@
+.typing {
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    height: 2rem;
+    padding-right: 0.5rem;
+    text-wrap: wrap;
+    border-right: .15em solid var(--uniklinic-color);
+    animation: blink-caret .75s step-end infinite;
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: var(--uniklinic-color); }
+}

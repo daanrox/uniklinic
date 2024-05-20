@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const msg = document.getElementById("msg").value;
 
       const mensagem = `Olá, meu nome é ${nome}. ${msg}.`;
-      const numero = "553199999999";
+      const numero = "553125718002";
       const url = `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(
         mensagem
       )}`;

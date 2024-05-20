@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/globalStyle.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-nNQVKiLuwjNUeyvm6d1yKNJff3Tb5nfsINvKlQ2uOYa46iGzNYwB/M3Fbf+D1qatRWbFfzGsMYAIFmEZYjERLg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEmGuIceexKma4Q6yyRD8M-KS5vbPtUVM"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
+    <script src="src/js/tailwind.js"></script>
+
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+
+    <title>Uniklinic Betim</title>
+    <meta name="description" content="Uniklinic Clínica Especializada em Alinhadores Transparente Invisalign e Crystal Aligner" />
+    <link rel="icon" href="src/icons/logo.png" />
+
+    <meta name="twitter:title" content="Uniklinic Betim">
+    <meta name="twitter:description" content="Uniklinic Clínica Especializada em Alinhadores Transparente Invisalign e Crystal Aligner">
+    <meta name="twitter:image" content="src/img/uniklinic_logo_fundo_branco.png">
+
+    <meta property="og:title" content="Uniklinic Betim">
+    <meta property="og:description" content="Uniklinic Clínica Especializada em Alinhadores Transparente Invisalign e Crystal Aligner">
+    <meta property="og:image" content="src/img/uniklinic_logo_fundo_branco.png">
+    <meta property="og:url" content="URL_DA_PÁGINA">
+
+    <link rel="canonical" href="URL_DA_PÁGINA_CANÔNICA">
+</head>
+
+<body>
+    <section class="first">
+        <video autoplay muted loop class="video-background">
+            <source autoplay src="src/video/scan.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+
+
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img onmousedown="return false;" src="src/img/uniklinic_logo_light.png" alt="Uniklinic Logo">
+                </div>
+                <nav class="header__nav">
+                    <div>
+                        <a href="./index.html">
+                            <p>Início</p>
+                        </a>
+                        <a href="./index.html#services">
+                            <p>Serviços</p>
+                        </a>
+                        <a href="./index.html#about">
+                            <p>Sobre</p>
+                        </a>
+                        <a href="contact.html">
+                            <p>Contato</p>
+                        </a>
+                    </div>
+                </nav>
+                <a target="_blank"
+                   href="https://api.whatsapp.com/send?phone=553199999999&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pré%20avaliação%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso">
+                    <button class="header__button">
+                        <img onmousedown="return false;" src="src/icons/whatsapp.png" alt="Envie uma mensagem no Whatsapp!">
+                        (31) 9999-9999
+                    </button>
+                </a>
+                <script src="./src/js/hamburguer.js"></script>
+                <span class="menu__hamburguer material-symbols-outlined" onclick="toggleMenu()">
+                    menu
+                </span>
+            </div>
+        </header>
+
+        <div class="menu-open" id="menuOpen">
+            <div class="menu__content">
+                <div class="menu__header">
+                    <span class="menu__close material-symbols-outlined" onclick="toggleMenu()">close</span>
+                </div>
+                <div class="menu__list">
+                    <a href="./index.html" onclick="toggleMenu()">Início</a>
+                    <a href="./index.html#services" onclick="toggleMenu()">Serviços</a>
+                    <a href="./index.html#about" onclick="toggleMenu()">Sobre</a>
+                    <a href="./contact.html" onclick="toggleMenu()">Contato</a>
+                    <a href="https://agenda.link/UniklinicBetim/" onclick="toggleMenu()" target="_blank">Agendamentos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home">
+           <ol class="contact__list">
+            <li onclick="window.open('https://api.whatsapp.com/send?phone=553125718002&text=Bom%20dia!%20Eu%20gostaria%20de%20fazer%20uma%20pr%C3%A9%20avalia%C3%A7%C3%A3o%20online%20ou%20presencial%20para%20saber%20quanto%20fica%20o%20tratamento%20com%20alinhadores%20no%20meu%20caso', '_blank')">Whatsapp</li>
+            <li onclick="window.open('https://agenda.link/UniklinicBetim/', '_blank')">Agendamentos</li>
+            <li onclick="window.open('https://www.instagram.com/uniklinic.betim/', '_blank')">Instagram</li>
+           
+            <li onclick="window.open('https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff[formatted_address]=Uniklinic%20Betim&dropoff[latitude]=-19.97057734928406&dropoff[longitude]=-44.19445957672856', '_blank')">Pedir um Uber</li>
+            <li onclick="window.open('https://www.waze.com/pt-BR/live-map/directions/br/mg/av.-gov.-valadares,-851?navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location&to=place.Ej9Bdi4gR292LiBWYWxhZGFyZXMsIDg1MSAtIENlbnRybywgQmV0aW0gLSBNRywgMzI2MDAtMjE2LCBCcmF6aWwiMRIvChQKEgnvjAg9ksOmABFWhdEvI4VxiRDTBioUChIJeRJOy5HDpgARM-5VqgWnhPE', '_blank')">Abrir no Waze</li>
+            <li onclick="window.open('https://www.google.com/maps?client=opera&oe=UTF-8&um=1&ie=UTF-8&fb=1&gl=br&sa=X&geocode=KUWNt76tw6YAMfAPmHyEKT-Z&daddr=Edifício+Seletto+office+-+Av.+Gov.+Valadares,+851+-+Sala+803+-+Centro,+Betim+-+MG,+32600-135', '_blank')">Google Maps</li>
+           </ol>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="whatsapp">
+        <div class="whatsapp-btn"></div>
+        <form class="whatsapp__form" id="whatsapp-form">
+            <input type="hidden" name="_subject" value="Contato via WhatsApp" />
+
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+            </div>
+
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" required resize="false">Gostaria de informações sobre</textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            <button class="btn-cancel" style="background-color: gray">
+                Cancelar
+            </button>
+        </form>
+
+
+        <script src="src/js/whatsapp.js"></script>
+    </section>
+
+<script src="./src/js/smooth.js"></script>
+</body>
+
+</html>

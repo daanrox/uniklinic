@@ -10,6 +10,9 @@
 body{
     /* background-color: var(--main-background-opacity); */
 }
+.link:hover{
+    color: var(--uniklinic-color)
+}
 
 :root {
 

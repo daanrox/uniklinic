@@ -2,7 +2,7 @@
 # Uniklinic Betim
 
 Site institucional com estilização no modelo Landing Page, para uma clínica Odontológica.
-Utilizamos tecnologias básicas e design responsivo.
+Utilizamos tecnologias básicas e design responsivo;
 
 ![Uniklinic Betim](front_example.jpg)
 
